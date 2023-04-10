@@ -10,6 +10,7 @@
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         ":/automap-tiles.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "objects.tsx": {
@@ -18,11 +19,11 @@
             "scaleInEditor": 5.5
         },
         "test-level.tmx": {
-            "scale": 1.5,
-            "selectedLayer": 0,
+            "scale": 1,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": -60.33333333333337,
-                "y": -16
+                "x": 50.5,
+                "y": 129
             }
         },
         "wall-rules.tmx": {
@@ -44,16 +45,18 @@
             "scaleInEditor": 1
         }
     },
+    "last.exportedFilePath": "C:/Cornell/22-23/CS 3152/nl-level-editor",
     "last.imagePath": "C:/Cornell/22-23/CS 3152/nl-level-editor",
     "map.fixedSize": false,
+    "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
     "openFiles": [
         "wall-rules.tmx"
     ],
     "project": "nine-lives.tiled-project",
     "recentFiles": [
-        "wall-rules.tmx",
         "test-level.tmx",
+        "wall-rules.tmx",
         "wall-tileset.tsx",
         "wall-tilesest.tsx",
         "objects.tsx"
