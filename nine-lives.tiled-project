@@ -8,5 +8,17 @@
         "."
     ],
     "propertyTypes": [
+        {
+            "id": 1,
+            "name": "activators",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "button",
+                "switch",
+                "timed switch"
+            ],
+            "valuesAsFlags": false
+        }
     ]
 }

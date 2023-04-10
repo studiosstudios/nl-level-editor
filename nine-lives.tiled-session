@@ -19,11 +19,14 @@
             "scaleInEditor": 5.5
         },
         "test-level.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
             "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 50.5,
-                "y": 129
+                "x": 33.5,
+                "y": 46
             }
         },
         "wall-rules.tmx": {
@@ -31,7 +34,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 182.33333333333331,
-                "y": 110.66666666666663
+                "y": 109.99999999999997
             }
         },
         "wall-tilesest.tsx": {
@@ -46,7 +49,7 @@
         }
     },
     "last.exportedFilePath": "C:/Cornell/22-23/CS 3152/nl-level-editor",
-    "last.imagePath": "C:/Cornell/22-23/CS 3152/nl-level-editor",
+    "last.imagePath": "C:/Cornell/22-23/CS 3152/nl-level-editor/objects",
     "map.fixedSize": false,
     "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
@@ -54,6 +57,7 @@
         "wall-rules.tmx"
     ],
     "project": "nine-lives.tiled-project",
+    "property.type": "bool",
     "recentFiles": [
         "test-level.tmx",
         "wall-rules.tmx",
