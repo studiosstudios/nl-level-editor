@@ -13,6 +13,17 @@
             "dynamicWrapping": false,
             "scaleInDock": 1
         },
+        "map1.tmx": {
+            "expandedObjectLayers": [
+                11
+            ],
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 548.5,
+                "y": 417
+            }
+        },
         "objects.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 1.5,
@@ -25,8 +36,8 @@
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -90.33333333333337,
-                "y": 174.66666666666663
+                "x": -5,
+                "y": 173.33333333333337
             }
         },
         "wall-rules.tmx": {
@@ -58,7 +69,7 @@
         "wall-rules.tmx"
     ],
     "project": "nine-lives.tiled-project",
-    "property.type": "biome",
+    "property.type": "bool",
     "recentFiles": [
         "test-level.tmx",
         "wall-rules.tmx",

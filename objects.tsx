@@ -16,14 +16,14 @@
  </tile>
  <tile id="5">
   <properties>
-   <property name="activatorID" value="button1"/>
+   <property name="activatorID" value=""/>
    <property name="active" type="bool" value="true"/>
   </properties>
   <image width="32" height="32" source="objects/spikes.png"/>
  </tile>
  <tile id="6">
   <properties>
-   <property name="activatorID" value="button1"/>
+   <property name="activatorID" value=""/>
    <property name="active" type="bool" value="true"/>
    <property name="pushable" type="bool" value="false"/>
   </properties>
