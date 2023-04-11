@@ -34,7 +34,7 @@
         {
          "draworder":"topdown",
          "id":2,
-         "name":"1",
+         "name":"wall-poly",
          "objects":[
                 {
                  "height":0,
@@ -535,11 +535,18 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":5,
+ "nextlayerid":6,
  "nextobjectid":21,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"biome",
+         "propertytype":"biome",
+         "type":"string",
+         "value":"metal"
+        }],
  "renderorder":"right-down",
- "tiledversion":"1.10.0",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {

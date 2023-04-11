@@ -19,6 +19,17 @@
                 "timed switch"
             ],
             "valuesAsFlags": false
+        },
+        {
+            "id": 4,
+            "name": "biome",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "metal",
+                "forest"
+            ],
+            "valuesAsFlags": false
         }
     ]
 }

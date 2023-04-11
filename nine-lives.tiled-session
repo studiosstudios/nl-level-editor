@@ -9,10 +9,6 @@
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
-        "/Users/sabrinali/Desktop/nove/tiles.tsx": {
-            "dynamicWrapping": false,
-            "scaleInDock": 1
-        },
         ":/automap-tiles.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1
@@ -22,27 +18,19 @@
             "scaleInDock": 1.5,
             "scaleInEditor": 5.5
         },
-        "test-level.tmj": {
-            "scale": 0.48984374999999997,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 0,
-                "y": 1.0207336523126287
-            }
-        },
         "test-level.tmx": {
             "expandedObjectLayers": [
                 2
             ],
-            "scale": 1,
+            "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 33.5,
-                "y": 46
+                "x": -90.33333333333337,
+                "y": 174.66666666666663
             }
         },
         "wall-rules.tmx": {
-            "scale": 1.0788,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 182.33333333333331,
@@ -70,7 +58,7 @@
         "wall-rules.tmx"
     ],
     "project": "nine-lives.tiled-project",
-    "property.type": "bool",
+    "property.type": "biome",
     "recentFiles": [
         "test-level.tmx",
         "wall-rules.tmx",
