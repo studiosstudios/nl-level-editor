@@ -18,12 +18,12 @@
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 38, 27, 27, 27, 27,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 2, 3, 4, 0, 0, 38, 39, 39, 27,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
-            3, 3, 3, 4, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
+            3, 3, 4, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 2, 3, 4, 0, 0, 0, 0, 25, 0, 25, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 26,
-            15, 15, 15, 15, 16, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
-            27, 27, 27, 27, 28, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 0, 26,
-            39, 39, 39, 39, 40, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
+            15, 15, 15, 16, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
+            27, 27, 27, 28, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 0, 26,
+            39, 39, 39, 40, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 37, 0, 0, 0, 14, 3, 3, 3, 3, 3, 3, 3, 27,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 26,
             0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 26,
@@ -292,11 +292,11 @@
                          "y":0
                         }, 
                         {
-                         "x":128,
+                         "x":96,
                          "y":0
                         }, 
                         {
-                         "x":128,
+                         "x":96,
                          "y":32
                         }, 
                         {
@@ -320,11 +320,11 @@
                          "y":0
                         }, 
                         {
-                         "x":160,
+                         "x":128,
                          "y":0
                         }, 
                         {
-                         "x":160,
+                         "x":128,
                          "y":96
                         }, 
                         {
@@ -662,6 +662,119 @@
                  "width":0,
                  "x":320,
                  "y":544
+                }, 
+                {
+                 "height":0,
+                 "id":113,
+                 "name":"",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":0,
+                         "y":480
+                        }, 
+                        {
+                         "x":32,
+                         "y":480
+                        }, 
+                        {
+                         "x":32,
+                         "y":0
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":-32,
+                 "y":288
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":16,
+         "name":"mobs",
+         "objects":[
+                {
+                 "gid":61,
+                 "height":32,
+                 "id":119,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"aggressive",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"facingRight",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":928,
+                 "y":768
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":17,
+         "name":"boxes",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":18,
+         "name":"mirrors",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":19,
+         "name":"exits",
+         "objects":[
+                {
+                 "height":64,
+                 "id":125,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"type",
+                         "propertytype":"exitType",
+                         "type":"string",
+                         "value":"goal"
+                        }],
+                 "rotation":0,
+                 "type":"Exit",
+                 "visible":true,
+                 "width":32,
+                 "x":1024,
+                 "y":64
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -932,6 +1045,17 @@
                  "height":32,
                  "id":67,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"activatorID",
+                         "type":"string",
+                         "value":"button1"
+                        }, 
+                        {
+                         "name":"active",
+                         "type":"bool",
+                         "value":true
+                        }],
                  "rotation":180,
                  "type":"",
                  "visible":true,
@@ -1027,7 +1151,7 @@
                  "visible":true,
                  "width":40,
                  "x":32,
-                 "y":544
+                 "y":512
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1274,6 +1398,12 @@
                          "name":"id",
                          "type":"string",
                          "value":"button2"
+                        }, 
+                        {
+                         "name":"type",
+                         "propertytype":"activators",
+                         "type":"string",
+                         "value":"button"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1315,13 +1445,13 @@
                         {
                          "name":"id",
                          "type":"string",
-                         "value":"switch3"
+                         "value":"button3"
                         }, 
                         {
                          "name":"type",
                          "propertytype":"activators",
                          "type":"string",
-                         "value":"switch"
+                         "value":"button"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1329,17 +1459,6 @@
                  "width":32,
                  "x":192,
                  "y":224
-                }, 
-                {
-                 "height":0,
-                 "id":97,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":768,
-                 "y":256
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1360,10 +1479,10 @@
                         {
                          "name":"color",
                          "type":"color",
-                         "value":"#ffff0000"
+                         "value":"#ff00ff00"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"SpiritRegion",
                  "visible":true,
                  "width":288,
                  "x":64,
@@ -1382,24 +1501,66 @@
          "objects":[
                 {
                  "height":64,
-                 "id":63,
+                 "id":116,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"activatorID",
+                         "type":"string",
+                         "value":"button3"
+                        }, 
+                        {
+                         "name":"active",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"closeAngle",
+                         "type":"int",
+                         "value":180
+                        }, 
+                        {
+                         "name":"totalTicks",
+                         "type":"int",
+                         "value":45
+                        }],
                  "rotation":0,
-                 "type":"",
+                 "type":"Door",
                  "visible":true,
                  "width":64,
                  "x":928,
                  "y":64
                 }, 
                 {
-                 "height":192,
-                 "id":69,
+                 "height":32,
+                 "id":117,
                  "name":"",
-                 "rotation":90,
-                 "type":"",
+                 "properties":[
+                        {
+                         "name":"activatorID",
+                         "type":"string",
+                         "value":"button2"
+                        }, 
+                        {
+                         "name":"active",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"closeAngle",
+                         "type":"int",
+                         "value":90
+                        }, 
+                        {
+                         "name":"totalTicks",
+                         "type":"int",
+                         "value":150
+                        }],
+                 "rotation":0,
+                 "type":"Door",
                  "visible":true,
-                 "width":32,
-                 "x":832,
+                 "width":192,
+                 "x":640,
                  "y":352
                 }],
          "opacity":1,
@@ -1426,7 +1587,7 @@
                         {
                          "name":"active",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"climbable",
@@ -1440,21 +1601,21 @@
                         }, 
                         {
                          "name":"disp",
-                         "propertytype":"Vector",
+                         "propertytype":"Vector2",
                          "type":"class",
                          "value":
                             {
-                             "x":-7,
+                             "x":-13,
                              "y":0
                             }
                         }, 
                         {
                          "name":"speed",
                          "type":"float",
-                         "value":10
+                         "value":6
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"Platform",
                  "visible":true,
                  "width":32,
                  "x":736,
@@ -1466,8 +1627,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":15,
- "nextobjectid":98,
+ "nextlayerid":20,
+ "nextobjectid":127,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1476,7 +1637,7 @@
          "type":"string",
          "value":"metal"
         }],
- "renderorder":"right-down",
+ "renderorder":"right-up",
  "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
@@ -1487,6 +1648,10 @@
         {
          "firstgid":49,
          "source":"objects.tsx"
+        }, 
+        {
+         "firstgid":59,
+         "source":":\/automap-tiles.tsx"
         }],
  "tilewidth":32,
  "type":"map",

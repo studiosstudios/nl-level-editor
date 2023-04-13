@@ -1,1 +1,3 @@
 ./wall-rules.tmx
+./lab-wall-rules.tmx
+

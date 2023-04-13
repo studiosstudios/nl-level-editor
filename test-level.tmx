@@ -103,7 +103,11 @@
    </properties>
   </object>
   <object id="22" gid="49" x="-64" y="64" width="32" height="32"/>
-  <object id="23" gid="49" x="-160" y="64" width="32" height="32"/>
+  <object id="23" gid="49" x="-160" y="64" width="32" height="32">
+   <properties>
+    <property name="type" propertytype="activators" value="switch"/>
+   </properties>
+  </object>
   <object id="24" gid="49" x="-64" y="64" width="32" height="32">
    <properties>
     <property name="id" value="switch1"/>

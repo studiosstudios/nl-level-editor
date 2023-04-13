@@ -32,6 +32,129 @@
             "valuesAsFlags": false
         },
         {
+            "color": "#ffa45a19",
+            "drawFill": true,
+            "id": 7,
+            "members": [
+                {
+                    "name": "activatorID",
+                    "type": "string",
+                    "value": "button1"
+                },
+                {
+                    "name": "active",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "closeAngle",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "name": "totalTicks",
+                    "type": "int",
+                    "value": 60
+                }
+            ],
+            "name": "Door",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
+            "color": "#ff00ff00",
+            "drawFill": true,
+            "id": 9,
+            "members": [
+                {
+                    "name": "type",
+                    "propertyType": "exitType",
+                    "type": "string",
+                    "value": "goal"
+                }
+            ],
+            "name": "Exit",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "exitType",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "goal",
+                "return"
+            ],
+            "valuesAsFlags": false
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 8,
+            "members": [
+                {
+                    "name": "activatorID",
+                    "type": "string",
+                    "value": "button1"
+                },
+                {
+                    "name": "active",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "climbable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "damping",
+                    "type": "float",
+                    "value": 0.1
+                },
+                {
+                    "name": "disp",
+                    "propertyType": "Vector2",
+                    "type": "class",
+                    "value": {
+                        "x": 1
+                    }
+                },
+                {
+                    "name": "speed",
+                    "type": "float",
+                    "value": 10
+                }
+            ],
+            "name": "Platform",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
+            "color": "#ffff798b",
+            "drawFill": true,
+            "id": 6,
+            "members": [
+                {
+                    "name": "color",
+                    "type": "color",
+                    "value": "#ffff0000"
+                }
+            ],
+            "name": "SpiritRegion",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
             "color": "#ffa0a0a4",
             "drawFill": true,
             "id": 5,
@@ -47,7 +170,7 @@
                     "value": 0
                 }
             ],
-            "name": "Vector",
+            "name": "Vector2",
             "type": "class",
             "useAs": [
                 "property"
