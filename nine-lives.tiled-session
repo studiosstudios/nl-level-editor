@@ -14,6 +14,24 @@
             "dynamicWrapping": false,
             "scaleInDock": 1
         },
+        "deprecated/map1.tmx": {
+            "expandedObjectLayers": [
+                14
+            ],
+            "scale": 0.9954589843749999,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 512.8287634276745,
+                "y": 414.88399470250647
+            }
+        },
+        "deprecated/objects.tsx": {
+            "dynamicWrapping": true
+        },
+        "deprecated/wall-tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
         "lab-wall-rules.tmx": {
             "scale": 0.03125,
             "selectedLayer": 0,
@@ -36,11 +54,21 @@
             "scaleInEditor": 0.0625
         },
         "level-template.tmx": {
-            "scale": 0.03125,
-            "selectedLayer": 12,
+            "expandedObjectLayers": [
+                15,
+                8,
+                16,
+                3,
+                10,
+                2,
+                9,
+                13
+            ],
+            "scale": 0.0625,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": -16784,
-                "y": 12608
+                "x": 12776,
+                "y": 10224
             }
         },
         "map1.json": {
@@ -172,20 +200,20 @@
         "map2.tmx"
     ],
     "project": "nine-lives.tiled-project",
-    "property.type": "biome",
+    "property.type": "bool",
     "recentFiles": [
+        "deprecated/map1.tmx",
+        "objects/objects.tsx",
+        "lab-walls.tsx",
         "metal-walls.tsx",
         "level-template.tmx",
-        "objects/objects.tsx",
         "metal-wall-rules.tmx",
-        "lab-walls.tsx",
         "objects.tsx",
         "objects_1024.tsx",
         "map2.tmx",
         "map1.json",
         "wall-rules.tmx",
-        "lab-wall-rules.tmx",
-        "test-level.tmx"
+        "lab-wall-rules.tmx"
     ],
     "resizeMap.removeObjects": true,
     "tileset.lastUsedFormat": "tsx",

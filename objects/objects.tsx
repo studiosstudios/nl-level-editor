@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.1" name="objects" tilewidth="1024" tileheight="2048" tilecount="7" columns="0">
+<tileset version="1.10" tiledversion="1.10.1" name="objects" tilewidth="1024" tileheight="2048" tilecount="7" columns="0" objectalignment="topleft">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="Activator">
   <image width="1024" height="1024" source="button.png"/>

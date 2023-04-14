@@ -196,6 +196,11 @@
                     "name": "aggressive",
                     "type": "bool",
                     "value": false
+                },
+                {
+                    "name": "facingRight",
+                    "type": "bool",
+                    "value": true
                 }
             ],
             "name": "Mob",
