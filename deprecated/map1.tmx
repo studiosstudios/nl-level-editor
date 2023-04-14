@@ -233,7 +233,6 @@
    </properties>
   </object>
   <object id="110" x="-32" y="960"/>
-  <object id="111" x="-32" y="960"/>
  </objectgroup>
  <objectgroup id="13" name="doors">
   <object id="63" x="928" y="64" width="64" height="64"/>
@@ -246,12 +245,7 @@
     <property name="active" type="bool" value="false"/>
     <property name="climbable" type="bool" value="false"/>
     <property name="damping" type="float" value="0.1"/>
-    <property name="disp" type="class" propertytype="Vector">
-     <properties>
-      <property name="x" type="float" value="-7"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
+    <property name="disp" type="class"/>
     <property name="speed" type="float" value="10"/>
    </properties>
   </object>

@@ -1,3 +1,2 @@
-./wall-rules.tmx
-./lab-wall-rules.tmx
+./metal-wall-rules.tmx
 

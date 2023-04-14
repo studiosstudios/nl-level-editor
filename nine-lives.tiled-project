@@ -9,6 +9,31 @@
     ],
     "propertyTypes": [
         {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 14,
+            "members": [
+                {
+                    "name": "id",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "type",
+                    "propertyType": "activators",
+                    "type": "string",
+                    "value": "button"
+                }
+            ],
+            "name": "Activator",
+            "type": "class",
+            "useAs": [
+                "property",
+                "object",
+                "tile"
+            ]
+        },
+        {
             "id": 1,
             "name": "activators",
             "storageType": "string",
@@ -39,7 +64,7 @@
                 {
                     "name": "activatorID",
                     "type": "string",
-                    "value": "button1"
+                    "value": ""
                 },
                 {
                     "name": "active",
@@ -93,6 +118,94 @@
             "valuesAsFlags": false
         },
         {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 12,
+            "members": [
+                {
+                    "name": "activatorID",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "active",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "pushable",
+                    "type": "bool",
+                    "value": false
+                }
+            ],
+            "name": "Flamethrower",
+            "type": "class",
+            "useAs": [
+                "object",
+                "tile"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 11,
+            "members": [
+                {
+                    "name": "activatorID",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "active",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "name": "Laser",
+            "type": "class",
+            "useAs": [
+                "property",
+                "object",
+                "tile"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 16,
+            "members": [
+                {
+                    "name": "pushable",
+                    "type": "bool",
+                    "value": false
+                }
+            ],
+            "name": "Mirror",
+            "type": "class",
+            "useAs": [
+                "object",
+                "tile"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 15,
+            "members": [
+                {
+                    "name": "aggressive",
+                    "type": "bool",
+                    "value": false
+                }
+            ],
+            "name": "Mob",
+            "type": "class",
+            "useAs": [
+                "object",
+                "tile"
+            ]
+        },
+        {
             "color": "#ff000000",
             "drawFill": true,
             "id": 8,
@@ -100,7 +213,7 @@
                 {
                     "name": "activatorID",
                     "type": "string",
-                    "value": "button1"
+                    "value": ""
                 },
                 {
                     "name": "active",
@@ -135,6 +248,29 @@
             "type": "class",
             "useAs": [
                 "object"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 13,
+            "members": [
+                {
+                    "name": "activatorID",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "active",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "name": "Spikes",
+            "type": "class",
+            "useAs": [
+                "object",
+                "tile"
             ]
         },
         {
@@ -174,6 +310,25 @@
             "type": "class",
             "useAs": [
                 "property"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 17,
+            "members": [
+            ],
+            "name": "Class11",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset"
             ]
         }
     ]
