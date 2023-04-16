@@ -8,7 +8,7 @@
  </properties>
  <tileset firstgid="1" source="objects/objects.tsx"/>
  <tileset firstgid="8" source=":/automap-tiles.tsx"/>
- <tileset firstgid="13" source="lab-walls.tsx"/>
+ <tileset firstgid="13" source="metal-walls.tsx"/>
  <layer id="17" name="metalWalls" width="64" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
