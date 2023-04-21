@@ -16,15 +16,38 @@
             "dynamicWrapping": false,
             "scaleInDock": 1
         },
+        "deprecated/map1.json": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 592,
+                "y": 269.99999999999994
+            }
+        },
         "deprecated/map1.tmx": {
             "expandedObjectLayers": [
-                14
+                13,
+                14,
+                2,
+                10
             ],
-            "scale": 0.9954589843749999,
+            "scale": 0.75,
             "selectedLayer": 10,
             "viewCenter": {
-                "x": 510.8196399666454,
-                "y": 551.5043900524844
+                "x": 437.9999999999999,
+                "y": 566.6666666666667
+            }
+        },
+        "deprecated/map2.tmx": {
+            "expandedObjectLayers": [
+                12,
+                9
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 656.5,
+                "y": 266
             }
         },
         "deprecated/objects.tsx": {
@@ -56,32 +79,92 @@
             "scaleInDock": 0.03125,
             "scaleInEditor": 0.0625
         },
+        "level-switch1.tmx": {
+            "expandedObjectLayers": [
+                15,
+                13,
+                12,
+                8,
+                16,
+                6,
+                14,
+                2,
+                9,
+                11,
+                4,
+                7,
+                3,
+                10
+            ],
+            "scale": 0.015625,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 29472,
+                "y": 11840
+            }
+        },
+        "level-switch2.json": {
+            "scale": 0.015625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 31904,
+                "y": 6336
+            }
+        },
+        "level-switch2.tmx": {
+            "expandedObjectLayers": [
+                12,
+                11,
+                16,
+                2
+            ],
+            "scale": 0.015625,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 10784,
+                "y": -2624
+            }
+        },
+        "level-switch3.tmx": {
+            "expandedObjectLayers": [
+                12,
+                16,
+                2,
+                11
+            ],
+            "scale": 0.03125,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 4752,
+                "y": 9088
+            }
+        },
         "level-template.json": {
             "scale": 0.015625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 32480,
-                "y": 9792
+                "x": 32416,
+                "y": 9728
             }
         },
         "level-template.tmx": {
             "expandedObjectLayers": [
+                15,
+                13,
                 12,
                 8,
-                7,
-                2,
                 16,
+                2,
                 9,
+                7,
                 3,
-                10,
-                15,
-                13
+                10
             ],
-            "scale": 0.03125,
+            "scale": 0.015625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 12816,
-                "y": 11936
+                "x": 29216,
+                "y": 20480
             }
         },
         "map1.json": {
@@ -140,11 +223,11 @@
             }
         },
         "metal-wall-rules.tmx": {
-            "scale": 0.020738728841145835,
-            "selectedLayer": 0,
+            "scale": 0.015625,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 26231.11590719576,
-                "y": 8221.333202531023
+                "x": 19040,
+                "y": 12160
             }
         },
         "metal-walls.tsx": {
@@ -197,7 +280,7 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "C:/Cornell/22-23/CS 3152/nl-level-editor",
+    "last.exportedFilePath": "C:/Cornell/22-23/CS 3152/nine-lives/assets/tiled",
     "last.imagePath": "C:/Cornell/22-23/CS 3152/nl-level-editor/objects",
     "map.fixedSize": false,
     "map.lastUsedExportFilter": "All Files (*)",
@@ -215,20 +298,20 @@
     "project": "nine-lives.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "level-switch3.tmx",
         "level-template.json",
+        "level-template.tmx",
+        "deprecated/map1.tmx",
+        "level-switch2.json",
         "metal-walls.tsx",
         "metal-wall-rules.tmx",
         "objects/objects.tsx",
-        "level-template.tmx",
-        "deprecated/map1.tmx",
         "lab-walls.tsx",
         "objects.tsx",
         "objects_1024.tsx",
-        "map2.tmx",
-        "map1.json",
-        "wall-rules.tmx"
+        "map2.tmx"
     ],
-    "resizeMap.removeObjects": true,
+    "resizeMap.removeObjects": false,
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
         "height": 1024,

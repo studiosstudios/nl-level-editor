@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="29" height="19" tilewidth="1024" tileheight="1024" infinite="0" nextlayerid="18" nextobjectid="33">
+ <editorsettings>
+  <export target="level-switch1.json" format="json"/>
+ </editorsettings>
+ <properties>
+  <property name="biome" propertytype="biome" value="metal"/>
+ </properties>
+ <tileset firstgid="1" source="objects/objects.tsx"/>
+ <tileset firstgid="8" source=":/automap-tiles.tsx"/>
+ <tileset firstgid="13" source="metal-walls.tsx"/>
+ <layer id="17" name="metalWalls" width="29" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+14,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,16,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+26,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,28,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+50,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,52
+</data>
+ </layer>
+ <objectgroup id="2" name="cat">
+  <object id="1" gid="2" x="1024" y="10240" width="1024" height="1024"/>
+ </objectgroup>
+ <objectgroup id="4" name="flamethrowers"/>
+ <objectgroup id="3" name="checkpoints"/>
+ <objectgroup id="6" name="lasers"/>
+ <objectgroup id="7" name="mobs"/>
+ <objectgroup id="8" name="spikes"/>
+ <objectgroup id="15" name="activators"/>
+ <objectgroup id="9" name="doors"/>
+ <objectgroup id="16" name="spiritRegions"/>
+ <objectgroup id="10" name="platforms"/>
+ <objectgroup id="12" name="wallsPoly">
+  <object id="14" x="0" y="9216">
+   <polygon points="0,2048 0,10240 29696,10240 29696,2048"/>
+  </object>
+  <object id="31" x="0" y="0">
+   <polygon points="0,0 0,11264 -1024,11264 -1024,0"/>
+  </object>
+  <object id="32" x="0" y="6144">
+   <polygon points="0,0 0,1024 29696,1024 29696,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="mirrors"/>
+ <objectgroup id="14" name="boxes"/>
+ <objectgroup id="11" name="exits">
+  <object id="13" type="Exit" x="30720" y="7168" width="1024" height="4096">
+   <properties>
+    <property name="type" propertytype="exitType" value="goal"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

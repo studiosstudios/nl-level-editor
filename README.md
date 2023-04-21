@@ -12,9 +12,9 @@ To add the cat, checkpoints, flamethrowers, lasers, spikes, mobs and activators,
 
 Doors, platforms, spirit regions and exits are represented in their respective layer as rectangles (R), **not** polygons. To add them, select the corresponding layer, draw a rectangle, and set the class of that rectangle to corresponding class. For doors, the ```closeAngle``` propperty determines the direction that the door closes in, do not rotate the rectangle itself or else it will be parsed incorrectly.
 
-To add mirrors or boxes, select the layer and add any tile, since right now we do not have assets for these. I like using tiles from the AutoMap rules tileset (which you can see in the template) since I feel like they kinda look like mirrors and boxes, but really it doesn't matter at all (and actually the AutoMap rules tileset is annoying to work with since you have to scale all the tiles to 1024x1024).
+To add mirrors or boxes, select the layer and add any tile, since right now we do not have assets for these. I like using tiles from the AutoMap rules tileset (which you can see in the template) since I feel like they kinda look like mirrors and boxes, but really it doesn't matter at all (and actually the AutoMap rules tileset is finicky to work with since you have to scale all the tiles to 1024x1024).
 
-Finally, if your level is too large/small, you can resize it with Map -> Resize Map.
+Currently the level template map size is **infinite**. This is because the automapping rules fail at the edges of a level and I don't want to figure out how to fix it. Whenever you are designing a level, you should keep the map size as infinite, and only resize the map once you have finished (Map -> Resize Map), otherwise you will have to manually place from the tileset at edges. Note that currently this means that the tileset is not used properly at the border between levels - if anyone wants to try and fix this please go ahead (I don't want to be the tiled guy), it would involve adding new rules to the automapping tileset (```./metal-wall-rules.tmx```, look [here](https://doc.mapeditor.org/en/stable/manual/automapping/) for more info).
 
 ## Adding the new level to the game
 Currently the workflow for adding a level to the game is a bit annoying:

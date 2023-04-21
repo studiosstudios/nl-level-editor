@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="44" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="116">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="44" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="119">
  <editorsettings>
-  <export target="map2.json" format="json"/>
+  <export target="../../nine-lives/assets/tiled/tiledLevel2.json" format="json"/>
  </editorsettings>
  <properties>
   <property name="biome" propertytype="biome" value="metal"/>
  </properties>
  <tileset firstgid="1" source="wall-tileset.tsx"/>
  <tileset firstgid="49" source="objects.tsx"/>
- <layer id="1" name="Walls" width="44" height="19">
+ <layer id="1" name="metalWalls" width="44" height="19">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,15,15,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,16,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,
@@ -31,21 +31,26 @@
 39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40
 </data>
  </layer>
+ <objectgroup id="12" name="exits">
+  <object id="116" type="Exit" x="-32" y="32" width="32" height="96">
+   <properties>
+    <property name="type" propertytype="exitType" value="return"/>
+   </properties>
+  </object>
+  <object id="118" type="Exit" x="1408" y="480" width="32" height="64"/>
+ </objectgroup>
  <objectgroup id="10" name="checkpoints">
   <object id="56" gid="53" x="768" y="64" width="32" height="64"/>
  </objectgroup>
  <objectgroup id="11" name="spiritRegions">
   <object id="110" type="SpiritRegion" x="1120" y="480" width="288" height="64"/>
  </objectgroup>
- <objectgroup id="9" name="wall-poly">
+ <objectgroup id="9" name="wallsPoly">
   <object id="30" x="-192" y="-32">
    <polygon points="192,32 192,64 800,64 800,160 640,160 640,224 640,224 640,512 864,512 864,32"/>
   </object>
   <object id="31" x="-192" y="224">
    <polygon points="192,-96 544,-96 544,320 1600,320 1600,384 192,384"/>
-  </object>
-  <object id="37" x="1408" y="480">
-   <polygon points="0,0 0,64 32,64 32,0"/>
   </object>
   <object id="107" x="768" y="128">
    <polygon points="0,0 0,416 352,416 352,0"/>
@@ -55,9 +60,6 @@
   </object>
   <object id="109" x="1376" y="32">
    <polygon points="0,0 0,96 -160,96 -160,448 32,448 32,0"/>
-  </object>
-  <object id="112" x="0" y="32">
-   <polygon points="0,0 0,96 -32,96 -32,0"/>
   </object>
   <object id="113" x="768" y="128">
    <properties>
