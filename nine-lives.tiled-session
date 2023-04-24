@@ -144,11 +144,11 @@
             }
         },
         "level-beta-hard.json": {
-            "scale": 0.021409254807692308,
+            "scale": 0.015625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 15390.540350877194,
-                "y": 19804.51929824561
+                "x": 9504,
+                "y": 8704
             }
         },
         "level-beta-hard.tmx": {
@@ -361,8 +361,8 @@
             "scale": 0.015625,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 24544,
-                "y": 8224
+                "x": 24480,
+                "y": 8192
             }
         },
         "metal-walls-2.tsx": {
@@ -388,6 +388,14 @@
             "dynamicWrapping": false,
             "scaleInDock": 0.0625,
             "scaleInEditor": 0.125
+        },
+        "party-room.tmx": {
+            "scale": 0.026092529296875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -862.3157894736833,
+                "y": 6285.323976608188
+            }
         },
         "platform-rules.tmx": {
             "scale": 0.0625,
