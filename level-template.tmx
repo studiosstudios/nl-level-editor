@@ -115,7 +115,7 @@
  <objectgroup id="9" name="doors">
   <object id="8" type="Door" x="18432" y="7168" width="1024" height="4096"/>
  </objectgroup>
- <objectgroup id="16" name="spiritRegions" visible="0">
+ <objectgroup id="16" name="spiritRegions">
   <object id="22" type="SpiritRegion" x="6144" y="7168" width="7168" height="4096"/>
  </objectgroup>
  <objectgroup id="10" name="platforms">
