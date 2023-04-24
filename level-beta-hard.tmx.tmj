@@ -1369,22 +1369,15 @@
          "name":"exits",
          "objects":[
                 {
-                 "height":2048,
+                 "height":4096,
                  "id":13,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"type",
-                         "propertytype":"exitType",
-                         "type":"string",
-                         "value":"return"
-                        }],
                  "rotation":0,
                  "type":"Exit",
                  "visible":true,
                  "width":1024,
                  "x":-1024,
-                 "y":29696
+                 "y":28672
                 }, 
                 {
                  "height":2048,
