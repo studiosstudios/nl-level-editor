@@ -2,15 +2,15 @@
 # A level editor for the poggiest game of all time
 
 ## Creating a level
-First, when you open Tiled, make sure you are opening ```nine-lives.tiled-project```. 
+First, when you open Tiled, make sure you are opening ```nine-lives.tiled-project```. **Before you start making a level make sure you have turned on View -> Snapping -> Snap to Grid.**
 
 To make a level, it is easiest to copy ```level-template.tmx```. The map itself has a ```biome``` property that is parsed to specify the tileset for the walls - right now we only have the metal tileset so make sure it is set to ```metal```.
 
 To make walls, select the ```metalWalls``` layer and the ```metal-walls``` tileset. This is a tile layer, so all you can do is place (B) and erase tiles (E). Ensure that Map -> AutoMap While Drawing is turned on so that the tileset is automatically read. When you are finished with the tile layout of the walls, select the ```wallsPoly``` layer, which is layer that contains the actual Box2D shape of the walls. Each object in the ```wallsPoly``` layer must be a polygon (P), you should create as many polygons as necessary to cover all boundaries of the walls in your level.
 
-To add the cat, checkpoints, flamethrowers, lasers, spikes, mobs and activators, select the corresponding layer and the ```objects``` tileset. Place corresponding objects into the layer by inserting tiles (T), and edit their properties if necessary. The greyed out default values of each property is the default value **parsed by us in the game**, not the default value into the JSON - if you leave the default value then there will not be a field for it in the JSON. This is not an issue **except** for activators, which must have an ```id```.
+To add the cat, checkpoints, flamethrowers, lasers, spikes, mobs and activators, select the corresponding layer and the ```objects``` tileset. Place corresponding objects into the layer by inserting tiles (T), and edit their properties if necessary. To rotate the object, change the rotation field - flipping it will not do anything. The greyed out default values of each property is the default value **parsed by us in the game**, not the default value into the JSON - if you leave the default value then there will not be a field for it in the JSON. This is not an issue **except** for activators, which must have an ```id```.
 
-Doors, platforms, spirit regions and exits are represented in their respective layer as rectangles (R), **not** polygons. To add them, select the corresponding layer, draw a rectangle, and set the class of that rectangle to corresponding class. For doors, the ```closeAngle``` propperty determines the direction that the door closes in, do not rotate the rectangle itself or else it will be parsed incorrectly.
+Doors, platforms, spirit regions and exits are represented in their respective layer as rectangles (R), **not** polygons. To add them, select the corresponding layer, draw a rectangle, and set the class of that rectangle to corresponding class. Do not rotate any rectangles or else they will be parsed incorrectly - for doors, the ```closeAngle``` property determines the direction that the door closes in.
 
 To add mirrors or boxes, select the layer and add any tile, since right now we do not have assets for these. I like using tiles from the AutoMap rules tileset (which you can see in the template) since I feel like they kinda look like mirrors and boxes, but really it doesn't matter at all (and actually the AutoMap rules tileset is finicky to work with since you have to scale all the tiles to 1024x1024).
 
