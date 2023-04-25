@@ -484,6 +484,11 @@
                          "name":"id",
                          "type":"string",
                          "value":"button4"
+                        }, 
+                        {
+                         "name":"shouldPan",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"",
@@ -1483,6 +1488,13 @@
                  "height":2048,
                  "id":13,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"type",
+                         "propertytype":"exitType",
+                         "type":"string",
+                         "value":"return"
+                        }],
                  "rotation":0,
                  "type":"Exit",
                  "visible":true,
