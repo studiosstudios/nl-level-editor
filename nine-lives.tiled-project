@@ -15,7 +15,7 @@
             "members": [
                 {
                     "name": "color",
-                    "type": "color",
+                    "type": "string",
                     "value": ""
                 },
                 {
@@ -60,6 +60,23 @@
                 "forest"
             ],
             "valuesAsFlags": false
+        },
+        {
+            "color": "#ffa159a4",
+            "drawFill": true,
+            "id": 18,
+            "members": [
+                {
+                    "name": "zoom",
+                    "type": "float",
+                    "value": 0.6
+                }
+            ],
+            "name": "CameraRegion",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
         },
         {
             "color": "#ffa45a19",
@@ -320,6 +337,30 @@
             "type": "class",
             "useAs": [
                 "property"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 17,
+            "members": [
+                {
+                    "name": "climbable",
+                    "type": "bool",
+                    "value": false
+                }
+            ],
+            "name": "Wall",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset"
             ]
         }
     ]
