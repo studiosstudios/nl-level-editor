@@ -57,10 +57,10 @@
                 8
             ],
             "scale": 0.03125,
-            "selectedLayer": 8,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 22672,
-                "y": 1184
+                "x": 30416,
+                "y": 13792
             }
         },
         "climbables.tsx": {
@@ -144,11 +144,23 @@
             }
         },
         "level-beta-hard.json": {
+            "expandedObjectLayers": [
+                12,
+                11,
+                7,
+                9,
+                3,
+                2,
+                15,
+                10,
+                14,
+                6
+            ],
             "scale": 0.015625,
-            "selectedLayer": 0,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 9504,
-                "y": 8704
+                "x": 9568,
+                "y": 12416
             }
         },
         "level-beta-hard.tmx": {
@@ -237,16 +249,16 @@
         },
         "level-template.tmx": {
             "expandedObjectLayers": [
-                12,
-                7,
                 9,
+                15,
+                7,
+                10,
+                12,
                 3,
                 2,
-                15,
-                16,
                 13,
-                10,
-                8
+                8,
+                16
             ],
             "scale": 0.03125,
             "selectedLayer": 1,
@@ -361,8 +373,8 @@
             "scale": 0.015625,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 24480,
-                "y": 8192
+                "x": 24544,
+                "y": 8224
             }
         },
         "metal-walls-2.tsx": {
@@ -390,11 +402,17 @@
             "scaleInEditor": 0.125
         },
         "party-room.tmx": {
-            "scale": 0.026092529296875,
-            "selectedLayer": 0,
+            "expandedObjectLayers": [
+                12,
+                11,
+                7,
+                2
+            ],
+            "scale": 0.015625,
+            "selectedLayer": 11,
             "viewCenter": {
-                "x": -862.3157894736833,
-                "y": 6285.323976608188
+                "x": 23392,
+                "y": 8640
             }
         },
         "platform-rules.tmx": {
@@ -435,12 +453,12 @@
         },
         "spikes-testing.tmx": {
             "expandedObjectLayers": [
+                15,
+                7,
+                10,
                 12,
                 11,
-                7,
                 3,
-                15,
-                10,
                 14
             ],
             "scale": 0.03125,
