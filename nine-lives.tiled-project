@@ -24,6 +24,11 @@
                     "value": ""
                 },
                 {
+                    "name": "shouldPan",
+                    "type": "bool",
+                    "value": false
+                },
+                {
                     "name": "type",
                     "propertyType": "activators",
                     "type": "string",
@@ -181,20 +186,6 @@
             "name": "Flamethrower",
             "type": "class",
             "useAs": [
-                "object",
-                "tile"
-            ]
-        },
-        {
-            "color": "#ffa0a0a4",
-            "drawFill": true,
-            "id": 20,
-            "members": [
-            ],
-            "name": "Goal",
-            "type": "class",
-            "useAs": [
-                "property",
                 "object",
                 "tile"
             ]
