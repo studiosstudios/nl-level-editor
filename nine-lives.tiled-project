@@ -79,6 +79,24 @@
             ]
         },
         {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 19,
+            "members": [
+                {
+                    "name": "attachName",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "Checkpoint",
+            "type": "class",
+            "useAs": [
+                "object",
+                "tile"
+            ]
+        },
+        {
             "color": "#ffa45a19",
             "drawFill": true,
             "id": 7,
@@ -155,9 +173,9 @@
                     "value": true
                 },
                 {
-                    "name": "pushable",
-                    "type": "bool",
-                    "value": false
+                    "name": "attachName",
+                    "type": "string",
+                    "value": ""
                 }
             ],
             "name": "Flamethrower",
@@ -181,6 +199,11 @@
                     "name": "active",
                     "type": "bool",
                     "value": true
+                },
+                {
+                    "name": "attachName",
+                    "type": "string",
+                    "value": ""
                 }
             ],
             "name": "Laser",
@@ -354,13 +377,8 @@
             "type": "class",
             "useAs": [
                 "property",
-                "map",
-                "layer",
                 "object",
-                "tile",
-                "tileset",
-                "wangcolor",
-                "wangset"
+                "tile"
             ]
         }
     ]
