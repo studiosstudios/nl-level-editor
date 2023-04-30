@@ -24,6 +24,11 @@
                     "value": ""
                 },
                 {
+                    "name": "shouldPan",
+                    "type": "bool",
+                    "value": false
+                },
+                {
                     "name": "type",
                     "propertyType": "activators",
                     "type": "string",
@@ -76,6 +81,24 @@
             "type": "class",
             "useAs": [
                 "object"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 19,
+            "members": [
+                {
+                    "name": "attachName",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "Checkpoint",
+            "type": "class",
+            "useAs": [
+                "object",
+                "tile"
             ]
         },
         {
@@ -155,28 +178,14 @@
                     "value": true
                 },
                 {
-                    "name": "pushable",
-                    "type": "bool",
-                    "value": false
+                    "name": "attachName",
+                    "type": "string",
+                    "value": ""
                 }
             ],
             "name": "Flamethrower",
             "type": "class",
             "useAs": [
-                "object",
-                "tile"
-            ]
-        },
-        {
-            "color": "#ffa0a0a4",
-            "drawFill": true,
-            "id": 20,
-            "members": [
-            ],
-            "name": "Goal",
-            "type": "class",
-            "useAs": [
-                "property",
                 "object",
                 "tile"
             ]
@@ -195,6 +204,11 @@
                     "name": "active",
                     "type": "bool",
                     "value": true
+                },
+                {
+                    "name": "attachName",
+                    "type": "string",
+                    "value": ""
                 }
             ],
             "name": "Laser",
@@ -368,13 +382,8 @@
             "type": "class",
             "useAs": [
                 "property",
-                "map",
-                "layer",
                 "object",
-                "tile",
-                "tileset",
-                "wangcolor",
-                "wangset"
+                "tile"
             ]
         }
     ]
