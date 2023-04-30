@@ -181,6 +181,11 @@
                     "name": "attachName",
                     "type": "string",
                     "value": ""
+                },
+                {
+                    "name": "baseSensor",
+                    "type": "bool",
+                    "value": false
                 }
             ],
             "name": "Flamethrower",
