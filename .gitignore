@@ -1,3 +1,4 @@
 *.tiled-session
 *.json
 /extensions/TiledExtension/config.txt
+*.DS_Store
