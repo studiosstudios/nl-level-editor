@@ -27,9 +27,9 @@ Currently the level template map size is **infinite**. This is because the autom
 We now have an extension to playtest the level you are currently making directly from Tiled. To set it up:
  - Create a JAR for the game in IntelliJ as outlined [here](https://www.cs.cornell.edu/courses/cs3152/2023sp/resources/engine/#creating-a-stand-alone-jar-file)
  - In Tiled, go to Project -> Project Properties and make sure the extensions directory is ```extensions/```
- - Press Ctrl+Shift+P (Cmd+Shift+P on Mac) while in Tiled. This should open up a window for you to select the location of the JAR you created above.
+ - In Tiled, press Ctrl+Shift+P (Cmd+Shift+P on Mac) -> Launch Level. This should open up a window for you to select the location of the JAR you created above.
 
-Now, every time you want to playtest a level, pressing Ctrl+Shift+P (Cmd+Shift+P on Mac) should automatically run the JAR and load in the level you currently have open. If for whatever reason the keyboard shortcut does not work, you can also go to File -> Launch Level. Note that this will only load in one level, if you want to see how your level fits into the rest of the game you will have to add it manually.
+Now, every time you want to playtest a level, pressing Ctrl+Shift+P (Cmd+Shift+P on Mac) should automatically run the JAR and load in the level you currently have open n Tiled (this must be a .json and not a .tmx). If for whatever reason the keyboard shortcut does not work, you can also go to File -> Launch Level. Note that this will only load in one level, if you want to see how your level fits into the rest of the game you will have to add it manually.
 
 
 ## Adding a new level to the game
