@@ -23,19 +23,28 @@ All objects with an ```attachName``` field can be attached to any other object. 
 ### Finishing the level
 Currently the level template map size is **infinite**. This is because the automapping rules fail at the edges of a level and I don't want to figure out how to fix it. Whenever you are designing a level, you should keep the map size as infinite, and only resize the map once you have finished (Map -> Map properties -> uncheck infinity, Map -> Resize Map), otherwise you will have to manually place from the tileset at edges. Note that currently this means that the tileset is not used properly at the border between levels - if anyone wants to try and fix this please go ahead (I don't want to be the tiled guy), it would involve adding new rules to the automapping tileset (```./metal-wall-rules.tmx```, look [here](https://doc.mapeditor.org/en/stable/manual/automapping/) for more info).
 
+## Playtesting the level
+We now have an extension to playtest the level you are currently making directly from Tiled. To set it up:
+ - Create a JAR for the game in IntelliJ as outlined [here](https://www.cs.cornell.edu/courses/cs3152/2023sp/resources/engine/#creating-a-stand-alone-jar-file)
+ - In Tiled, go to Project -> Project Properties and make sure the extensions directory is ```extensions/```
+ - Press Ctrl+Shift+P (Cmd+Shift+P on Mac) while in Tiled. This should open up a window for you to select the location of the JAR you created above.
 
-## Adding the new level to the game
-Currently the workflow for adding a level to the game is a bit annoying:
+Now, every time you want to playtest a level, pressing Ctrl+Shift+P (Cmd+Shift+P on Mac) should automatically run the JAR and load in the level you currently have open. If for whatever reason the keyboard shortcut does not work, you can also go to File -> Launch Level. Note that this will only load in one level, if you want to see how your level fits into the rest of the game you will have to add it manually.
+
+
+## Adding a new level to the game
+This is the current workflow for actually adding the level to the game:
 - Export the map as a JSON, and copy/move it into the ```assets/tiled/``` folder in the repo.
 - In ```assets/assets.json```, add a new entry under the ```jsons``` field. The key must be of the form ```tiledLevel[level number]```, the value is the path to the JSON. 
 - If necessary, in ```NineLives.java```, increase the total number of levels by changing the number in the method call for ```startGame``` (currently lines 118 & 120).
+
 
 ## Some common errors and causes
 - A Box2D assertion error: you have added a rectangle/polygon with zero width/height. This one is super easy to accidentally make because Tiled automatically makes rectangles of zero width and zero height whenever you click with the rectangle tool - we should ignore these when parsing eventually. 
 - Couldn't load dependencies of asset: check you have the right names in ```assets.json```
 - Transitions between levels are not working: one of the two levels is missing or has misplaced a goal/return exit
 - Your level is not being loaded in: check you have set the right number of levels in ```NineLives.java```
-
+- Tiled extension is not working: check that ```extensions/TiledExtension/config.txt``` contains the right path to your JAR
 
 ## Adding a new type of object
 I am unsure if we will ever need to do this, but I'll put this just in case. As of right now there are two possible types of objects we could be adding. For an object that always takes up a set amount of grid cells:

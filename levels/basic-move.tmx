@@ -8,7 +8,7 @@
  </properties>
  <tileset firstgid="1" source="../metal-walls.tsx"/>
  <tileset firstgid="49" source="../climbables.tsx"/>
- <tileset firstgid="60" source="../objects/objects.tsx"/>
+ <tileset firstgid="59" source="../objects/objects.tsx"/>
  <layer id="17" name="metalWalls" width="29" height="17">
   <data encoding="csv">
    <chunk x="0" y="0" width="16" height="16">
@@ -108,19 +108,19 @@
  </objectgroup>
  <objectgroup id="16" name="spiritRegions"/>
  <objectgroup id="2" name="cat">
-  <object id="84" gid="61" x="1024" y="13312" width="1024" height="1024"/>
+  <object id="84" gid="60" x="1024" y="13312" width="1024" height="1024"/>
  </objectgroup>
  <objectgroup id="4" name="flamethrowers"/>
  <objectgroup id="3" name="checkpoints"/>
  <objectgroup id="6" name="lasers"/>
  <objectgroup id="7" name="mobs"/>
  <objectgroup id="8" name="spikes">
-  <object id="82" gid="66" x="19456" y="15360" width="1024" height="1024"/>
-  <object id="83" gid="66" x="20480" y="15360" width="1024" height="1024"/>
+  <object id="82" gid="65" x="19456" y="15360" width="1024" height="1024"/>
+  <object id="83" gid="65" x="20480" y="15360" width="1024" height="1024"/>
  </objectgroup>
  <objectgroup id="15" name="activators"/>
  <objectgroup id="21" name="goal">
-  <object id="81" gid="67" x="26624" y="12288" width="1024" height="2048"/>
+  <object id="81" gid="66" x="26624" y="12288" width="1024" height="2048"/>
  </objectgroup>
  <objectgroup id="9" name="doors"/>
  <objectgroup id="10" name="platforms"/>
