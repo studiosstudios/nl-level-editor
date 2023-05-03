@@ -1,5 +1,5 @@
 {
-    "automappingRulesFile": "./rules/rules.txt",
+    "automappingRulesFile": "rules/rules.txt",
     "commands": [
     ],
     "compatibilityVersion": 1100,
@@ -71,6 +71,16 @@
             "drawFill": true,
             "id": 18,
             "members": [
+                {
+                    "name": "isZoomRelative",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "shouldSnapRegion",
+                    "type": "bool",
+                    "value": false
+                },
                 {
                     "name": "zoom",
                     "type": "float",
