@@ -72,12 +72,37 @@
             "id": 18,
             "members": [
                 {
+                    "name": "bHeight",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "bWidth",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "bX",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "bY",
+                    "type": "float",
+                    "value": 0
+                },
+                {
                     "name": "isZoomRelative",
                     "type": "bool",
                     "value": false
                 },
                 {
-                    "name": "shouldSnapRegion",
+                    "name": "shouldSnap",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "snapCollisionArea",
                     "type": "bool",
                     "value": false
                 },
